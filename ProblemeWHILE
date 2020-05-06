@@ -1,0 +1,101 @@
+import java.util.Scanner;
+public class ProblemeWHILE {
+public static void main(String[] args) {
+	double n;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	int j=1;
+	int s=0;
+	while (j<=n) {
+		s=s+(2*j-1);
+		j++;
+	}
+	System.out.println(s);
+}
+}
+
+
+import java.util.Scanner;
+public class ProblemeWHILE1 {
+public static void main(String[] args) {
+	double n;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	int j=1;
+	int s=1;
+	while (j<=n) {
+		s=s*(2*j-1);
+		j++;
+	}
+	System.out.println(s);
+}
+}
+
+
+import java.util.Scanner;
+public class ProblemeWHILE2 {
+public static void main(String[] args) {
+	double n;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	int j=1;
+	int s=0;
+	while (j<=n) {
+		s=s+(2*j);
+		j++;
+	}
+	System.out.println(s);
+}
+}
+
+
+import java.util.Scanner;
+public class ProblemeWHILE3 {
+public static void main(String[] args) {
+	double n;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	int j=1;
+	int s=1;
+	while (j<=n) {
+		s=s*(2*j);
+		j++;
+	}
+	System.out.println(s);
+}
+}
+
+
+import java.util.Scanner;
+public class ProblemeWHILE4 {
+public static void main(String[] args) {
+	double n;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	int j=1;
+	int s=0;
+	while (j<=n) {
+		s=s+(3*j);
+		j++;
+	}
+	System.out.println(s);
+}
+}
+
+
+
+import java.util.Scanner;
+public class ProblemeWHILE5 {
+public static void main(String[] args) {
+	double n;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	int j=1;
+	int s=1;
+	while (j<=n) {
+		s=s*(4*j);
+		j++;
+	}
+	System.out.println(s);
+}
+}
