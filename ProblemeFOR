@@ -1,0 +1,107 @@
+import java.util.Scanner;
+public class ProblemeFOR {
+	public static void main(String[] args) {
+		double n,s=0;
+		Scanner Sc=new Scanner(System.in);
+		n=Sc.nextDouble();
+		for(int i=1; i<=n;i++) {
+			s=s+(2*i-1);
+		}
+		System.out.println(s);
+	}
+
+}
+
+
+
+import java.util.Scanner;
+public class ProblemeFOR2 {
+public static void main(String[] args) {
+	double n,s=0;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	for(int i=1;i<=n;i++) {
+		s=s+(2*i);
+	}
+	System.out.println(s);
+}
+}
+
+
+
+import java.util.Scanner;
+public class ProblemeFOR3 {
+public static void main(String[] args) {
+	double n,s=1;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	for(int i=1;i<=n;i++) {
+		s=s*(2*i);
+	}
+	System.out.println(s);
+}
+}
+
+
+
+import java.util.Scanner;
+public class ProblemeFOR4 {
+public static void main(String[] args) {
+	double n,s=0;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	for(int i=1;i<=n;i++) {
+		s=s+(3*i);
+	}
+	System.out.println(s);
+}
+}
+
+
+
+import java.util.Scanner;
+public class ProblemeFOR5 {
+public static void main(String[] args) {
+	double n,s=1;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	for(int i=1;i<=n;i++) {
+		s=s*(3*i);
+	}
+	System.out.println(s);
+}
+}
+
+
+
+
+import java.util.Scanner;
+public class ProblemeFOR6 {
+public static void main(String[] args) {
+	double n,s=0;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	for(int i=1;i<=n;i++) {
+		s=s+(4*i);
+	}
+	System.out.println(s);
+}
+}
+
+
+
+
+import java.util.Scanner;
+public class ProblemeFOR7 {
+public static void main(String[] args) {
+	double n,s=1;
+	Scanner Sc=new Scanner(System.in);
+	n=Sc.nextDoube();
+	for(int i=1;i<=n;i++) {
+		s=s*(4*i);
+	}
+	System.out.println(s);
+}
+}
+
+
